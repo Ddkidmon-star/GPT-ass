@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bankGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D287"/>
+      <stop offset="100%" stop-color="#008A54"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bankGrad)"/>
+  <rect width="512" height="256" rx="128" fill="url(#glow)"/>
+
+  <!-- Bank / G Icon -->
+  <g filter="url(#shadow)" transform="translate(64, 64)">
+    <!-- Shield / Vault shape -->
+    <path d="M192 40 L336 104 V216 C336 304 274 374 192 404 C110 374 48 304 48 216 V104 Z" fill="#FFFFFF" fill-opacity="0.95"/>
+    <!-- Inner Accent -->
+    <path d="M192 88 L296 134 V216 C296 280 252 334 192 358 C132 334 88 280 88 216 V134 Z" fill="#00A868"/>
+    <!-- Modern Tech Chip / Arrow Cutout -->
+    <path d="M192 130 L250 176 H214 V270 H170 V176 H134 Z" fill="#FFFFFF"/>
+    <circle cx="192" cy="292" r="14" fill="#FFFFFF"/>
+  </g>
+</svg>

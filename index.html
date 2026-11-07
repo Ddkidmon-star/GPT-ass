@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>GPT BANK - Modern Mobile Banking</title>
+    <meta name="description" content="GPT BANK: Modern fintech mobile banking app with instant wallet deposits, transfers, withdrawals, and real-time Supabase sync." />
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="GPT BANK - Modern Mobile Banking" />
+    <meta property="og:description" content="Instant wallet deposits, transfers, airtime top-up, and real-time Supabase sync." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/pwa-512x512.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GPT BANK" />
+    <meta name="twitter:description" content="Modern fintech mobile banking app with real-time Supabase wallet." />
+
+    <!-- PWA & Mobile Web App settings -->
+    <meta name="theme-color" content="#121317" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="GPT Bank" />
+    
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- Paystack Inline Popup Widget -->
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+  </head>
+  <body class="bg-[#121317] text-white antialiased selection:bg-emerald-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

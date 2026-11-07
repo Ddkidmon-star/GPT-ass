@@ -1,0 +1,6 @@
+{
+  "name": "GPT BANK",
+  "description": "Modern mobile banking web app with Supabase wallet integration, PWA capabilities, and sleek fintech UI inspired by modern digital banks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
